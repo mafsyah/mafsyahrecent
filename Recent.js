@@ -1,0 +1,2 @@
+document.write("<scr" + "ipt type=\"text/javascript\" src=\"https://mafsyah.disqus.com/recent_comments_widget.js?num_items=20&hide_mods=1&hide_avatars=0&avatar_size=32&excerpt_length=80\"></scr" + "ipt>");
+$("#RecentComments a").filter(function(){return this.hostname&&this.hostname!==location.hostname}).attr('rel', 'nofollow').attr('target', '_blank');
